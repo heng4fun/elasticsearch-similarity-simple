@@ -7,6 +7,7 @@ Only use unique term number to calcualte similarity.
 
 When update an exist index, first close the index, then use the following script to update:
 
+<pre> 
 curl -XPOST 'http://host:port/tweeter/' -d '
 {
   "settings": {
@@ -20,6 +21,7 @@ curl -XPOST 'http://host:port/tweeter/' -d '
     }
   }
 }'
+</pre> 
 
 When create an new index, One can use settings as follows:
 
