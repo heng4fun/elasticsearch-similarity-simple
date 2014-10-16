@@ -24,6 +24,7 @@ curl -XPOST 'http://host:port/tweeter/' -d '
 </pre> 
 
 When create an new index, One can use settings as follows:
-
+<pre> 
 "index.similarity.search.type":"org.elasticsearcsh.infoso.plugin.similarity.InfosoSimilarityProvider"
 "index.similarity.index.type":"org.elasticsearch.infoso.plugin.similarity.InfosoSimilarityProvider"
+</pre> 
